@@ -1,4 +1,5 @@
 
+
 const image=document.getElementById('cover'),
 title = document.getElementById('music-title'),
 artist=document.getElementById('music-artist'),
@@ -21,10 +22,70 @@ const songs = [
         artist: 'Akon'
     },
     {
-        path:'assets/TekIt.mp3',
-        displayName:'Tek It -  Cafune',
-        cover:'assets/TektIt.jpg',
-        artist: 'Cafune'
+        path:'assets/getinto.mp3',
+        displayName:'Get Into It',
+        cover:'assets/getinto.jpg',
+        artist: 'Doja Cat'
+    },
+    {
+        path:'assets/badsad.mp3',
+        displayName:'BAD SAD AND MAD',
+        cover:'assets/badsad.jpg',
+        artist: 'BIBI(비비)'
+    },
+    {
+        path:'assets/LostSoulDown.mp3',
+        displayName:'The Lost Soul Down',
+        cover:'assets/theLostSoulDown.jpg',
+        artist: 'NBSPLV'
+    },
+    {
+        path:'assets/landslide.mp3',
+        displayName:'Landslide',
+        cover:'assets/landslide.jpg',
+        artist: 'Vicetone ft. YoungBlood Hawke'
+    },
+    {
+        path:'assets/meetme.mp3',
+        displayName:'Meet Me Halfway',
+        cover:'assets/meetme.jpg',
+        artist: 'The Black Eyed Peas'
+    },
+    {
+        path:'assets/JalebiBaby.mp3',
+        displayName:'Jalebi Baby',
+        cover:'assets/JabeliBaby.jpg',
+        artist: 'Tesher'
+    },
+    {
+        path:'assets/starboy.mp3',
+        displayName:'Starboy',
+        cover:'assets/starboy.jpg',
+        artist: 'The Weeknd ft. Daft Punk'
+    },
+    {
+        path:'assets/ChasingTime.mp3',
+        displayName:'Chasing Time vs ID',
+        cover:'assets/chasingTime.jpg',
+        artist: 'Vicetone'
+    },
+    {
+        path:'assets/gimmie.mp3',
+        displayName:'Gimmie More',
+        cover:'assets/gimmie.jpg',
+        artist: 'Britney Spears'
+    },
+    {
+        path:'assets/vegas.mp3',
+        displayName:'Vegas',
+        cover:'assets/vegas.jpg',
+        artist: 'Joseline Hernandez'
+    },
+    {
+        path:'assets/chericheri.mp3',
+        displayName:'Cheri Cheri Lady',
+        cover:'assets/chericheri.jpg',
+        artist: 'Modern Talking'
     },
     {
         path:'assets/TebyaZizz.mp3',
@@ -45,42 +106,58 @@ const songs = [
         artist: 'Charli XCX ft. Kim Petras'
     },
     {
+        path:'assets/stereolove.mp3',
+        displayName:'Stereo Love',
+        cover:'assets/stereolove.jpg',
+        artist: 'Edward Maya ft. Vika Jigulina'
+    },
+    {
+        path:'assets/nuestface.mp3',
+        displayName:'FACE(페이스)',
+        cover:'assets/nuestface.jpg',
+        artist: "NU'EST(뉴이스트)"
+    },
+    {
+        path:'assets/kirari.mp3',
+        displayName:'Kirari',
+        cover:'assets/kirari.jpg',
+        artist: 'Fujii Kaze'
+    },
+    {
+        path:'assets/ireally.mp3',
+        displayName:'I really wanna stay at ur house',
+        cover:'assets/ireally.jpg',
+        artist: 'Rosa Walton & Hallie Coggins'
+    },
+    {
+        path:'assets/TekIt.mp3',
+        displayName:'Tek It -  Cafune',
+        cover:'assets/TektIt.jpg',
+        artist: 'Cafune'
+    },
+    {
         path:'assets/geazy.mp3',
         displayName:'Cravin',
         cover:'assets/geazy.jpg',
         artist: 'DaniLeigh ft. G-Eazy'
     },
     {
-        path:'assets/getinto.mp3',
-        displayName:'Get Into It',
-        cover:'assets/getinto.jpg',
-        artist: 'Doja Cat'
+        path:'assets/troublemaker.mp3',
+        displayName:'Trouble Maker',
+        cover:'assets/troublemaker.jpg',
+        artist: 'Hyuna & Hyunseung'
     },
     {
-        path:'assets/badsad.mp3',
-        displayName:'BAD SAD AND MAD',
-        cover:'assets/badsad.jpg',
-        artist: 'BIBI(비비)'
-    },
-    {
-        path:'assets/starboy.mp3',
-        displayName:'Starboy',
-        cover:'assets/starboy.jpg',
-        artist: 'The Weeknd ft. Daft Punk'
-    },
-    {
-        path:'assets/ChasingTime.mp3',
-        displayName:'Chasing Time vs ID',
-        cover:'assets/chasingTime.jpg',
-        artist: 'Vicetone'
-    },
-    {
-        path:'assets/LostSoulDown.mp3',
-        displayName:'The Lost Soul Down',
-        cover:'assets/theLostSoulDown.jpg',
-        artist: 'NBSPLV'
+        path:'assets/thislove.mp3',
+        displayName:'Is This Love',
+        cover:'assets/thislove.jpg',
+        artist: 'White Snake'
     }
+
 ];
+
+
+
 
 let musicIndex= 0
 let isPlaying = false
